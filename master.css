@@ -1,0 +1,1183 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* 인덱스 페이지 */
+.index{
+    width: 100%;
+    background: linear-gradient(to right,#EEEEEE,#EECC4F);
+}
+.idx{
+    width: 1200px;
+    margin: 0 auto;
+    border: 0px solid aqua;
+}
+.bg{
+    text-align: center;
+    padding-top: 184px;
+}
+.indexbt{
+    padding-top: 68px;
+    text-align: right;
+}
+/* 인덱스 페이지 */
+
+/* 메인페이지 */
+nav{
+    width: 100%;
+    height: 85px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: #000;
+}
+a:hover{
+    color: #eecc4f;
+}
+
+.menubar{
+    color: #000;
+    width: 1200px;
+    height: 85px;
+    border: 0px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 14.4px;
+
+}
+.menu{
+    border: 0px solid violet;
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+    padding: 25px;
+}
+section{
+    width: 100%;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.main01{
+    background-image: url(img/mnbg.png);
+    background-repeat: no-repeat;
+}
+/* 글 이미지 배경 그라디언트 색 안 보이게*/
+.box .wrap1{
+    width: 1200px;
+    height: 100vh;
+    border: 0px solid blue;
+    position: relative;
+    padding-top: 229px;
+    text-align: center;
+}
+.viewbt{
+    display: block;
+    margin-left: 895px;
+    margin-top: 50px;
+    margin-bottom: 114px;
+}
+.main02{
+    width: 100%;
+    height: 400px;
+    background-color: #eee;
+}
+.wrap2{
+    width: 1200px;
+    text-align: center;
+    border:0px solid red;
+    position: relative;
+    display: flex;
+}
+.tx2 > img{
+    justify-content: left;
+    margin-top: 65px;
+    margin-left: 39.1px;
+    display: block;
+    margin-bottom: 12.9px;
+}
+.tx2 .tx2tx{
+    margin-left: 36px;
+}
+.tx2p{
+    margin-top: 92px;
+    margin-left: 230px;
+}
+.tx2p > h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: left;
+}
+.tx2p > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 20px;
+    text-align: left;
+}
+.main03{
+    position: relative;
+    width: 100%;
+    height: 1054px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.wrap3{
+    width: 1200px;
+    text-align: center;
+    border: 0px solid aqua;
+}
+.wrap3 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 91px;
+}
+.wrap3 > h4{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.wrapsmal{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 400px;
+}
+
+.work4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    width: 585px;
+    height: 350px;
+    text-align: center;
+}
+.main04{
+    position: relative;
+    width: 100%;
+    height: 376px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.wrap4{
+    width: 1200px;
+    text-align: center;
+    border: 0px solid blue;
+    position: relative;
+    display: flex;
+    padding-top: 66px;
+}
+.wrap4tx{
+    text-align: left;
+    margin-left: 130.1px;
+}
+.wrap4tx > h3{
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+    font-size: 60px;
+}
+.drly1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+.drly2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+footer{
+    width: 100%;
+    height: 440px;
+    background: linear-gradient(to right,#EEEEEE,#EECC4F);
+}
+.ft_tx1{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    border: 0px solid red;
+    display: flex;
+}
+.txt1 > img{
+    margin-top: 60px;
+    justify-content: left;
+    display: block;
+}
+.ft2{
+    display: block;
+    margin-top: 20.1px;
+    justify-content: left;
+}
+.txt1 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 21px;
+}
+.ft_tx2{
+    text-align: left;
+    border:0px solid red;
+    position: relative;
+    margin-left: 195px;
+}
+.ft_tx2 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+.ft_tx2 > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ct{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.ft_tx3{
+    margin-top: 64px;
+}
+.ft_tx3 > h4{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.ft_tx3 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+}
+/* 메인 페이지 */
+
+/* 프로필 페이지 */
+.prof01{
+    height: 995px;
+    background: linear-gradient(to bottom,#FFFFFF,#FFF3CC);
+}
+.prof_bg01{
+    width: 1200px;
+    margin: 0 auto;
+    border: 0px solid red;
+    padding-left: 40px;
+    padding-top: 209px;
+    padding-bottom: 144px;
+}
+.prof02{
+    width: 100%;
+    background-color: #eee;
+}
+.prof02_ab1{
+    width: 1200px;
+    border: 0px solid aqua;
+    text-align: center;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.prof02_ab2 > h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 130px;
+}
+.prof02_ab2 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19.5px;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 35px;
+    margin-bottom: 82px;
+}
+.prof03{
+    width: 1200px;
+    height: 1080px;
+    margin: 0 auto;
+    border: 0px solid red;
+    padding-top: 100px;
+}
+.prof03_ab1{
+    margin-left: 10px;
+}
+.prof03_ab2 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 37.2px;
+}
+.prof03_ab2 > img{
+    margin-top: 10px;
+    margin-bottom: 120px;
+}
+.prof03_ab3{
+    margin-left: 10px;
+    text-align: left;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+}
+.ab3_1 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.ab3_1 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.ab3_2{
+    margin-left: 49px;
+}
+.ab3_2 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.ab3_2 >h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 10px;
+    text-align: left;
+    position: relative;
+    display: flex;
+}
+.ab3_2e > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19.4px;
+    line-height: 40px;
+    margin-top: 53px;
+}
+.ab3_3{
+    margin-left: 53px;
+}
+.ab3_3 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.ab3_3 > img{
+    margin-top: 15px;
+    margin-bottom: 76px;
+}
+.ab3_3 > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-right: 18px;
+}
+.ab3_3s{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    margin-left: 18px;
+}
+/* 프로필 페이지 */
+
+
+/* 편집 디자인 페이지 */
+.edit{
+    margin: 0 auto;
+    background-image: url(img/ed_bg.png);
+    height: 995px;
+}
+.ed{
+    width: 1200px;
+    border: 0px solid orange;
+    margin: 0 auto;
+}
+.edlo{
+    text-align: left;
+    position: relative;
+    display: flex;
+    padding-top: 80px;
+}
+.edlo > h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    margin-left: 9.5px;
+}
+.edtx{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 34px;
+}
+.ed01{
+    padding-top: 47px;
+    display: flex;
+    position: relative;
+}
+.edbtx{
+    text-align: left;
+}
+.edbtx > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.edbtx > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.edbook1{
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.edbook1_s{
+    margin-bottom: 125px;
+}
+.ed02{
+    display: flex;
+    position: relative;
+}
+.edbook2{
+    margin-top: 115px;
+    margin-left: 64px;
+    margin-bottom: 30px;
+}
+.edbook2_s{
+    margin-bottom: 70px;
+}
+.edbbook2_p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.5px;
+    line-height: 40px;
+    padding-bottom: 88px;
+}
+
+.ed03{
+    display: flex;
+    position: relative;
+}
+.edbtx3 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.edbtx3 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.8px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.edbook3{
+    margin-top: 115px;
+    margin-left: 64px;
+    margin-bottom: 30px;
+}
+.edbook3_s{
+    margin-bottom: 70px;
+}
+.edbbook3_p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.5px;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+.edbook3_ps{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    text-align: right;
+    padding-bottom: 116px;
+}
+.ed03{
+    display: flex;
+    position: relative;
+}
+.edbook3{
+    margin-top: 75px;
+    margin-left: 64px;
+    margin-bottom: 30px;
+}
+.edbook3_s{
+    margin-bottom: 50px;
+}
+.edbbook2_p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.5px;
+    line-height: 40px;
+    padding-bottom: 88px;
+}
+/* 편집 디자인 페이지 */
+
+/* 아덴티 디자인 페이지 */
+.iden{
+    margin: 0 auto;
+    background-image: url(img/id_bg.png);
+    height: 995px;
+}
+.idn{
+    width: 1200px;
+    border: 0px solid orange;
+    margin: 0 auto;
+}
+.idnlo{
+    text-align: left;
+    position: relative;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 45.2px;
+}
+.idnlo > h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    margin-left: 9.5px;
+}
+.idntx{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 34px;
+    text-align: left;
+}
+
+.id01{
+    display: flex;
+    position: relative;
+}
+
+.idntx > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.idntx > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.8px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.idlogo1{
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+.idlogo1_s{
+    padding-bottom: 95px;
+}
+
+.id02{
+    display: flex;
+    position: relative;
+    padding-bottom: 33.2px;
+}
+.idntx2{
+    text-align: left;
+}
+.idntx2 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.idntx2 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.8px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.idlogo2{
+    margin-left: 207px;
+    margin-bottom: 33.2px;
+}
+.id03{
+    display: flex;
+    position: relative;
+    padding-top: 95px;
+}
+.idntx3 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.idntx3 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.7px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.idlogo3{
+    margin-left: 260px;
+}
+.idlogo3_s{
+    margin-top: 31.7px;
+    margin-bottom: 95px;
+}
+.id04{
+    display: flex;
+    position: relative;
+}
+.idntx4 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.idntx4 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.7px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-bottom: 33px;
+    padding-left: 10px;
+}
+.idlogo4{
+    margin-top: 36.8px;
+    margin-left: 280.9px;
+    margin-bottom: 33px;
+}
+.idlogo4_s{
+    margin-bottom: 70px;
+}
+.idlogo4_s > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.5px;
+    line-height: 40px;
+    padding-top: 30px;
+    padding-bottom: 103px;
+}
+/* 아덴티 디자인 페이지 */
+
+/* 패키지 디자인 페이지 */
+.pack{
+    margin: 0 auto;
+    background-image: url(img/pa_bg.png);
+    height: 995px;
+}
+.pck{
+    width: 1200px;
+    border: 0px solid orange;
+    margin: 0 auto;
+}
+.pclo{
+    text-align: left;
+    position: relative;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 45.2px;
+}
+.pclo > h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    margin-left: 9.5px;
+}
+.pc01{
+    display: flex;
+    position: relative;
+}
+.pctx{
+    text-align: left;
+    margin-top: 45.2px;
+}
+.pctx > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.pctx > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.8px;
+    line-height: 40px;
+    padding-top: 19.8px;
+    padding-left: 10px;
+}
+.pcage1{
+    text-align: right;
+}
+.pcage1_s{
+    padding-top: 69px;
+    padding-bottom: 95px;
+}
+
+.pc02{
+    display: flex;
+    position: relative;
+}
+.pctx2{
+    text-align: left;
+    /* margin-top: 49.2px; */
+}
+.pctx2 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.pctx2 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.8px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 131px;
+}
+
+.pcage2{
+    margin-top: 32px;
+    margin-left: 70px;
+    margin-bottom: 38px;
+}
+.pcage2_s{
+    margin-bottom: 123px;
+}
+
+.pc03{
+    display: flex;
+    position: relative;
+}
+.pctx3{
+    text-align: left;
+}
+.pcage3{
+    display: flex;
+    position: relative;
+    padding-bottom: 53.2px;
+}
+.pctx3 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.pctx3 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21.7px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.pcage3_s{
+    margin-top: 31.7px;
+    margin-bottom: 100px;
+}
+/* 패키지 디자인 페이지 */
+
+/* 유아이 디자인 페이지 */
+.uiux{
+    margin: 0 auto;
+    background-image: url(img/ui_bg.png);
+    height: 995px;
+}
+.uiuxde{
+    background-image: url(img/uiuxd.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.uiuxde_s{
+    border: 0px solid orange;
+    width: 1200px;
+    margin: 0 auto;
+}
+.uilo{
+    text-align: left;
+    position: relative;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 74.5px;
+}
+.uilo > h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    margin-left: 9.5px;
+}
+.uixtx{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 40px;
+}
+.uix01{
+    display: flex;
+    position: relative;
+}
+.uixtx{
+    text-align: left;
+}
+.uixtx >img{
+    padding-left: 10px;
+}
+.uixtx > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-bottom: 41px;
+}
+.uixtx > h4{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    padding-top: 53px;
+    padding-left: 10px;
+    padding-bottom: 13px;
+}
+.uixtx > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 10px;
+    padding-bottom: 69.5px;
+}
+.uix02{
+    margin: 0 auto;
+    width: 1200px;
+    border: 0px solid red;
+}
+.uixtx2{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 45.2px;
+    padding-bottom: 84px;
+}
+.uixtxs > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    padding-bottom: 18px;
+}
+.uixtxs > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19.7px;
+    line-height: 40px;
+}
+.uixtxs2{
+    padding-left: 60px;
+}
+.uixtxs2 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    padding-bottom: 18px;    
+}
+.uixtxs2 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19.7px;
+    line-height: 40px;
+}
+
+/*  */
+.uix03{
+    margin: 0 auto;
+    width: 1200px;
+    border: 0px solid red;
+}
+.uixtx3{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 27px;
+}
+.uixtx3s1 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    padding-bottom: 18px;
+}
+.uixtxs3s2{
+    padding-left: 35px;
+}
+.uixtxs3s2 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    padding-bottom: 18px;    
+}
+.dott{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.dottx{
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 88px;
+}
+.uixtx4 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+.uixtx4 > img{
+    margin-bottom: 87px;
+}
+.uixtx5 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+.uixtx5 > img{
+    margin-bottom: 74.7px;
+}
+.uixtx6 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+.uixtx6 > img{
+    margin-bottom: 72px;
+}
+
+.uixtx7{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 45.2px;
+    padding-bottom: 204.7px;
+}
+.uixfo > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    padding-bottom: 37px;
+}
+.uixfo > img{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19.7px;
+    line-height: 40px;
+}
+.uixic{
+    padding-left: 78.5px;
+}
+.uixic > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    padding-bottom: 37px;
+}
+.uixic > img{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19.7px;
+    line-height: 40px;
+}
+.uix04{
+    margin: 0 auto;
+    width: 1200px;
+    border: 0px solid red;
+    }
+.uixpr1{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+}
+.uixprie01 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 46px;
+    color: #E94275;
+    padding-bottom: 39px;
+}
+.uixprie01 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+.uixprie01s{
+    padding-top: 260px;
+    padding-left: 42px;
+    text-align: right;
+    padding-bottom: 117px;
+}
+.uixpr2{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 104.4px;
+}
+.uixprie02 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    color: #E94275;
+    padding-bottom: 39px;
+}
+.uixprie02 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+.uixprie02s{
+    padding-left: 15px;
+    text-align: right;
+}
+.uixpr3{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 81.8px;
+}
+.uixprie03 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    color: #E94275;
+    padding-bottom: 39px;
+}
+.uixprie03 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+.uixprie03s{
+    padding-top: 14.6px;
+    padding-left: 57px;
+    text-align: right;
+}
+.uixpr4{
+    text-align: center;
+    border: 0px solid red;
+    position: relative;
+    display: flex;
+    text-align: left;
+}
+.uixprie04 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    color: #E94275;
+    padding-bottom: 39px;
+}
+.uixprie04s > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 92px;
+    padding-bottom: 11.2px;
+
+}
+.uixim4{
+    padding-bottom: 57.8px;
+}
+.uixpr5{
+    height: 584px;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 101px;
+    background-image: url(img/rc.png);
+    background-repeat: no-repeat;
+}
+.uixprie05 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    color: #E94275;
+    padding-bottom: 39px;
+    text-align: left;
+}
+.uixprie05 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+.uixpr6{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 104px;
+}
+.uixprie06 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    color: #E94275;
+    padding-bottom: 39px;
+    padding-top: 15.2px;
+}
+.uixprie06 > h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+
+.uixprie06 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+.uixprie06s{
+    padding-top: 11.2px;
+    padding-left: 27px;
+    text-align: right;
+}
+.uixpr7{
+    text-align: center;
+    border: 0px solid red;
+    position: relative;
+    display: flex;
+    text-align: left;
+}
+.uixprie07 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    color: #E94275;
+    padding-bottom: 53.4px;
+}
+.uixprie07s > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    padding-left: 75px;
+    padding-top: 38px;
+}
+.uixim7{
+    padding-bottom: 51.3px;
+}
+.uixpr8{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 111px;
+}
+.uixprie08 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    color: #E94275;
+    padding-top: 26.7px;
+    padding-bottom: 39px;
+}
+.uixprie08 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+.uixprie08s{
+    padding-left: 78px;
+    text-align: right;
+}
+/* 유아이 디자인 페이지 */
