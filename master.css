@@ -34,12 +34,15 @@ nav{
     display: flex;
     justify-content: center;
 }
-a{
-    color: #000;
+a:visited, a:active, a:link{
+    color:#000;
 }
 a:hover{
     color: #eecc4f;
+    transition: all 0.5s;
 }
+
+
 
 .menubar{
     color: #000;
