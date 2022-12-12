@@ -1,0 +1,985 @@
+*{margin: 0;padding: 0;}
+
+header{height: 70px;}
+header > nav{margin: auto;display: flex;justify-content: space-between;align-items: center;}
+header > nav > .logo{display: inline-block;padding: 20px 0px 12px 20px}
+header > nav > .menu{display: inline-block;padding-right: 20px; padding-top: 31px; padding-bottom: 25px;}
+
+header > .nav_menu{position: relative;display: none;background: linear-gradient(to top,#eecc4f,#eeeeee);}
+header > .nav_menu > ul{display: inline-block;width: 100%;padding: 0rem 0rem;}
+header > .nav_menu > ul > li{list-style: none;text-align: right; padding: 1.3rem 2.3rem;border-bottom: 1px solid #000;}
+header > .nav_menu > ul > li > a{font-family: 'PT Sans', sans-serif;font-size: 1.6rem;font-weight: 600; text-decoration: none;}
+header > .nav_menu > ul > li > a:visited, a:active, a:link{color:#000;}
+
+header > .nav_menu.active{display: flex;}
+
+
+/* main 메인 */
+.m_index{
+    width: 390px;
+    height: 844px;
+    background: linear-gradient(to top,#EECC4F, #EEEEEE);
+}
+.m_idx{
+    margin: 0 auto;
+}
+.m_bg{
+    padding-top: 219px;
+}
+.m_indexbt{
+    text-align: center;
+    padding-top: 83.6px;
+}
+.m_viewbt{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.main01{
+    height: 500px;
+    border: 0px solid orange;
+}
+.main_ty{
+    text-align: center;
+    padding-top: 166px;
+}
+
+.main02{
+    height: 250px;
+    background-image: url(img/main01bg.png);
+}
+
+.m_wrap{
+    text-align: center;
+    border:0px solid red;
+    position: relative;
+    display: flex;
+}
+.wraptx1 > img{
+    justify-content: left;
+    margin-top: 38px;
+    margin-left: 20px;
+    display: block;
+    margin-bottom: 25px;
+}
+.wraptx1 > h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 16px;
+    margin-left: 20px;
+    text-align: left;
+}
+.wraptx2{
+    margin-top: 67px;
+    margin-left: 8px;
+}
+.wraptx2 > h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+.wraptx2 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 8.5px;
+    line-height: 15px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.main03{
+    text-align: center;
+}
+.main_dw > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    padding-top: 38px;
+}
+.main_dw > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.main_edit{
+    padding-bottom: 10px;   
+}
+.main_iden{
+    padding-bottom: 10px;
+}
+.main_pack{
+    padding-bottom: 10px;
+}
+.main_uiux{
+    padding-bottom: 10px;
+}
+.main_about{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.foot{
+    background: linear-gradient(to right,#EEEEEE,#EECC4F);
+    /* background-image:url(img/foot.png); */
+    text-align: center;
+}
+.ftlogo{
+    padding-top: 23px;
+}
+.ftme{
+    padding-top: 8.5px;
+}
+.ftint{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 8px;
+}
+.ftcopy{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 23px;
+    font-weight: bold;
+}
+/* main 메인 */
+
+
+/* profile 프로필 */
+.prof_box01{
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 86px;
+}
+.profbg{
+    height: 650px;
+    background: linear-gradient(to top,#FFF3CC, #ffffff);
+    border: 0px solid red;
+}
+.profty{
+    padding-top: 62px;
+}
+.profme{
+    padding-top: 57px;
+}
+.proflogo{
+    padding-top: 32.4px;
+}
+
+.prof_box02{
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.profmebg{
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 41px;
+    padding-bottom: 10px;
+    height: 500px;
+}
+.melogo{
+    padding-bottom: 10px;
+}
+.meintro{
+    padding-bottom: 30px;
+}
+.mebtx > h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15.7px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.mebtx > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.prof_box03{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.imlogo{
+    padding-top: 40px;
+    padding-left: 10.2px;
+}
+.imbtx > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 26px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.imbtx > img{
+    padding-left: 10px;
+    padding-bottom: 55.9px;
+}
+.im_profile > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.im_profile > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+.im_projects > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.im_projects > h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.im_projects > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+.im_skills{
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.im_skills > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.skilltx{
+    text-align: left;
+    border:0px solid red;
+    position: relative;
+    display: flex;
+}
+.skilltx > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-right: 25px;
+}
+.graph{
+    padding-top: 11px;
+}
+/* profile 프로필 */
+
+/* Editorial 편집 */
+.edit01{
+    margin-bottom: 145px;
+    margin: 0 auto;
+    margin-top: 38px;
+    background-image: url(img/edit_bg.png);
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.edit_ty{
+    text-align: center;
+}
+.edit_ty > img{
+    padding-top: 84px;
+}
+
+.edit02{
+    margin-top: 145px;
+}
+.editw01{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.editw01t{
+    text-align: center;
+    padding-top: 85px;
+}
+.editw01t > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.editw01s{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.edit01_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.editorialw{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.editw02{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.editw02t{
+    text-align: center;
+}
+.editw02t > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.editw02s{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.edit02_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.editorialw2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.edit02_story2{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+    margin-bottom: 100px;
+}
+.edit02_story2 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+.editw03{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.editw03t{
+    text-align: center;
+}
+.editw03t > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.editw03s{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.edit03_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.editorialw3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.edit03_story2{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+    margin-bottom: 100px;
+}
+.edit03_story2 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+.editw04{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.editw03t{
+    text-align: center;
+    text-align: center;
+}
+.editw03t > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.editw03s{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.edit03_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.editorialw3{
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.edit03_story2{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+    margin-bottom: 10px;
+}
+.edit03_story2 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+.edit03_story2s{
+    width: 350px;
+    border: 0px solid red;
+    margin: 0 auto;
+    text-align: right;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+/* Editorial 편집 */
+
+
+/* Identity 아덴티 */
+.iden01{
+    margin-bottom: 145px;
+    margin-top: 38px;
+    /* margin: 0 auto; */
+    background-image: url(img/iden_bg.png);
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.iden_ty{
+    text-align: center;
+}
+.iden_ty > img{
+    padding-top: 84px;
+}
+.iden02{
+    margin-top: 145px;
+}
+.idenw01{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.idenw01t{
+    text-align: center;
+    padding-top: 85px;
+}
+.idenw01t > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.idenw01s{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.iden01_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.identityw{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.idenw02{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.idenw02t{
+    text-align: center;
+    text-align: center;
+}
+.idenw02t > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.idenw02s{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.iden02_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.identityw2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.iden02_story2{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+    margin-bottom: 100px;
+}
+
+.idenw03{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.idenw03t{
+    text-align: center;
+}
+.idenw03t > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.idenw03s{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.iden03_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.identityw3{
+    display: flex;
+    justify-content: center;
+}
+.iden05{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+    margin-top: 100px;
+}
+.idenw04t{
+    text-align: center;
+}
+.idenw04t > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.idenw04s{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.iden04_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.identityw4{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.iden04_story2 > p{
+    width: 350px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+/* Identity 아덴티 */
+
+/* package 패키지 */
+.pack01{
+    margin-bottom: 145px;
+    margin: 0 auto;
+    margin-top: 38px;
+    background-image: url(img/pack_bg.png);
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.pack_ty{
+    text-align: center;
+}
+.pack_ty > img{
+    padding-top: 84px;
+}
+
+.pack02{
+    margin-top: 145px;
+}
+.packw01{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.packw01t{
+    text-align: center;
+    padding-top: 85px;
+}
+.packw01t > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.packw01s{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.pack01_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.packagew{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.pack03{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.packw02t{
+    text-align: center;
+    text-align: center;
+}
+.packw02t > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.packw02s{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.pack02_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.packagew2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.pack04{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.packw03t{
+    text-align: center;
+}
+.packw03t > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.packw03s{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.pack03_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.packagew3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+/* package 패키지 */
+
+/* uiux 유아이 */
+.uiux01{
+    margin-bottom: 145px;
+    margin: 0 auto;
+    margin-top: 38px;
+    background-image: url(img/uiux_bg.png);
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.uiux_ty{
+    text-align: center;
+}
+.uiux_ty > img{
+    padding-top: 84px;
+}
+
+.uiux02{
+    margin-top: 145px;
+    background-image: url(img/uiux01w.png);
+    background-repeat: no-repeat;
+}
+.uiuxw01{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.uiuxw01t{
+    text-align: left;
+    padding-top: 50.6px;
+    padding-bottom: 89.6px;
+}
+.uiux01_story{
+    width: 350px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+.uiux01_story > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.uiux01_story > img{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.uiux01_story2 > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+.uiux01_story3 > img{
+    padding-top: 9px;
+    margin: 0 auto;
+    display: block;
+}
+.uiux01_story4 > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+.uiux01_story5{
+    margin-top: 40px;
+}
+.splashsp{
+    position: relative;
+    display: flex;
+}
+.splashead{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22.5px;
+    line-height: 34px;
+    color: #E94275;
+    position: relative;
+    display: flex;
+}
+.splashtx{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 30px;
+}
+.splim{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.signin{
+    position: relative;
+    display: flex;
+}
+.signhead{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22.5px;
+    line-height: 34px;
+    color: #E94275;
+    position: relative;
+    display: flex;
+}
+.signtx{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 80px;
+    position: relative;
+    display: flex;
+}
+.signim{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.home{
+}
+.homehead >h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 23px;
+    line-height: 34px;
+    color: #E94275;
+}
+.homehead > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 8px;
+}
+.homeim{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+
+
+.diy{
+}
+.diyhead >h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 23px;
+    line-height: 34px;
+    color: #E94275;
+}
+.diyhead > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 8px;
+}
+.diyim{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.receipt{
+}
+.recehead >h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    color: #E94275;
+}
+.recehead > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 8px;
+}
+.receim{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+
+.share{
+}
+.sharehead >h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    color: #E94275;
+}
+
+.sharehead > h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    padding-top: 8px;
+}
+.sharehead > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 6px;
+}
+.shareim{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.apply{
+    position: relative;
+    display: flex;
+}
+.applyhead{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 23px;
+    padding-right: 45px;
+    color: #E94275;
+}
+.applytx > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13.5px;
+    line-height: 22px;
+}
+.applyim{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.mypage{
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    border: 0px solid red;
+}
+.mypagehead > h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 23px;
+    padding-right: 45px;
+    color: #E94275;
+}
+.mypagehead > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+.mypageim > img{
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 8px;
+    border: 0px solid red;
+}
+/* uiux 유아이 */
