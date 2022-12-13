@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -62,6 +62,7 @@ a:hover{
     border: 0px solid violet;
     font-size: 25px;
     font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
     padding: 25px;
 }
 section{
