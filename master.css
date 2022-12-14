@@ -158,12 +158,14 @@ section{
     font-family: 'PT Sans', sans-serif;
     font-size: 25px;
     margin-top: 10px;
+    font-weight: normal;
     text-align: center;
     margin-bottom: 45px;
 }
 .wrapsmal{
     font-family: 'PT Sans', sans-serif;
     font-size: 30px;
+    font-weight: bold;
     margin-top: 400px;
 }
 
@@ -263,11 +265,13 @@ footer{
 .ft_tx2 > p{
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 .ct{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 16px;
+    font-weight: normal;
     margin-left: 30px;
 }
 .ft_tx3{
@@ -401,6 +405,7 @@ footer{
 .ab3_3 > p{
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
+    font-weight: bold;
     line-height: 40px;
     margin-top: 10px;
     margin-right: 18px;
@@ -408,6 +413,7 @@ footer{
 .ab3_3s{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
+    font-weight: normal;
     margin-left: 18px;
 }
 /* 프로필 페이지 */
@@ -845,7 +851,8 @@ footer{
     padding-left: 10px;
 }
 .uixtx > h3{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
     font-size: 30px;
     padding-left: 10px;
     padding-bottom: 41px;
@@ -936,7 +943,7 @@ footer{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     line-height: 40px;
-    padding-bottom: 88px;
+    padding-bottom: 128px;
 }
 .uixtx4 > h3{
     font-family: 'PT Sans', sans-serif;
